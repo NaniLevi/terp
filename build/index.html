@@ -2,10 +2,12 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
-    <title>SAP TERP10 «Интеграция бизнес-процессов»</title>
+    <title>Новые возможности с курсом SAP TERP10 «Интеграция бизнес-процессов»</title>
     <link rel="stylesheet" href="../css/main.css">
-		<!-- <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.css"> -->
-		<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../build/css/bootstrap.css">
+    <link rel="stylesheet" href="../build/css/icheck.css">
+    <link rel="stylesheet" href="../build/css/mixins.css">
+    <link rel="stylesheet" href="../build/css/owl.carousel-part.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="description" content="Курс SAP TERP10 в Санкт-Петербурге направлен на получение основных знаний по SAP ERP, как с точки зрения функционирования системы, так и относительно её отдельных элементов.">
@@ -58,13 +60,13 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-5 col-md-7">
-              <h1 class="slider-heading">Новые возможности с курсом SAP<br>TERP10 «Интеграция бизнес-процессов»</h1>
+              <h1 class="slider-heading">Новые возможности с курсом SAP<br>					TERP10 «Интеграция бизнес-процессов»</h1>
               <div class="dates"><i class="fa fa-calendar-check-o"></i> 3 - 14 Июля 2017</div>
             </div>
             <div class="col-sm-7 col-md-5">
               <form id="letter_form" action="" method="post" class="appl-form">
                 <div class="form-group">
-                  <label for="apple-name">Имя, фамилия:<span class="star">*</span></label>
+                  <label for="appl-name">Имя, фамилия:<span class="star">*</span></label>
                   <input type="text" name="participants_name">
                 </div>
                 <div class="form-group">
@@ -547,15 +549,15 @@
         </div>
       </section>
       <div id="contacts" class="contacts">
-        <div id="map" class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.8424228552456!2d30.332874451384715!3d59.934756881785766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469631085c6e0835%3A0x3f01f4f18729cbb2!2z0KHQsNC00L7QstCw0Y8g0YPQuy4sIDE1LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1496566043996" style="margin-top:-100px; width:100%; height:500px;" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+        <div id="map"></div>
       </div>
-      <!-- <main> -->
+      <main>
         <footer class="main-footer">
           <div class="container">
             <div class="row">
               <div class="col-md-4 contacts"><a href="mailto:acc@acc-sap.ru"><i class="fa fa-envelope"></i> acc@acc-sap.ru</a><a href="tel: +7 (812) 606-62-23"><i class="fa fa-phone"></i>  +7 (812) 606-62-23</a></div>
               <div class="col-md-4 contacts">
-                <address><i class="fa fa-map-marker" aria-hidden="true"></i> 195220, Гражданский пр., 28А (16 уч. Корпус СПбПУ), оф. 305</address>
+                <address><i class="fa fa-map-marker"></i> 195220, Гражданский пр., 28А (16 уч. Корпус СПбПУ), оф. 305</address>
               </div>
               <div class="col-md-4">
                 <div class="socials"><a href="https://vk.com/acc_sap" class="fa fa-vk"></a><a href="https://twitter.com/accsap" class="fa fa-twitter"></a><a href="https://www.facebook.com/accsap.polytehnical" class="fa fa-facebook"></a></div>
@@ -563,33 +565,14 @@
             </div>
           </div>
         </footer>
-        <!-- <script>
+        <script>
           var lang     = 'ru';
           var AJAX     = 'http://terp10.spbstu.ru/ajax/';
           var MAIN     = 'http://terp10.spbstu.ru/';
           var AJAX_URL = 'http://terp10.spbstu.ru/core/ajax/';
           var CORE     = 'http://terp10.spbstu.ru/core/';
           var IMG      = 'http://terp10.spbstu.ru/img/';
-        </script> -->
-				<!-- <script>
-				// initMap() - функция инициализации карты
-function initMap() {
-    // Координаты центра на карте. Широта: 56.2928515, Долгота: 43.7866641
-    var centerLatLng = new google.maps.LatLng(59.934745, 30.335114);
- 
-    // Обязательные опции с которыми будет проинициализированна карта
-    var mapOptions = {
-        center: centerLatLng, // Координаты центра мы берем из переменной centerLatLng
-        zoom: 8               // Зум по умолчанию. Возможные значения от 0 до 21
-    };
- 
-    // Создаем карту внутри элемента #map
-    var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-}
- 
-// Ждем полной загрузки страницы, после этого запускаем initMap()
-google.maps.event.addDomListener(window, "load", initMap);
-				</script> -->
+        </script>
         <script src="http://terp10.spbstu.ru/js/modernizr.js"></script>
         <script src="http://terp10.spbstu.ru/js/jquery-3.1.1.min.js"></script>
         <script src="http://terp10.spbstu.ru/js/jquery-migrate-3.0.0.min.js"></script>
@@ -600,8 +583,9 @@ google.maps.event.addDomListener(window, "load", initMap);
         <script src="http://terp10.spbstu.ru/js/icheck.min.js"></script>
         <script src="http://terp10.spbstu.ru/js/main.js"></script>
         <script src="http://terp10.spbstu.ru/js/reg.js"></script>
-        <script src="http://terp10.spbstu.ru/js/map.js"></script>       
-      <!-- </main> -->
+        <script src="http://terp10.spbstu.ru/js/map.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBcS_wxjhY6HsbL28cpmccVjmX3yw0O0c&amp;callback=initMap&amp;language=ru"></script>
+      </main>
     </main>
   </body>
 </html>
