@@ -1,0 +1,16 @@
+{
+  "name": "pr2",
+  "version": "1.0.0",
+  "description": "practice 2",
+  "author": "Val",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.1"
+  }
+}
