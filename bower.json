@@ -1,12 +1,12 @@
 {
-  "name": "practice3",
+  "name": "terp",
   "description": "",
   "main": "index.js",
   "authors": [
-    "Elina Razina <razina_elina@mail.ru>"
+    " NaniLevi <nani.levi@yandex.ru>"
   ],
   "license": "ISC",
-  "homepage": "https://github.com/ERazina/lesson1",
+  "homepage": "https://github.com/NaniLevi/terp.git",
   "ignore": [
     "**/.*",
     "node_modules",

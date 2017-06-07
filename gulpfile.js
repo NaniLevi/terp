@@ -9,8 +9,6 @@ const notify = require('gulp-notify');
 var clean = require('gulp-clean');
 const scss = require('gulp-scss');
 var mainfiles = require('main-bower-files');
-
-
 var googlecdn = require('gulp-google-cdn');
 
  
