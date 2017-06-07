@@ -8,7 +8,7 @@ const pug = require('gulp-pug');
 const notify = require('gulp-notify');
 var clean = require('gulp-clean');
 const scss = require('gulp-scss');
-var mainfiles = require('main-bower-files');
+var mainBowerFiles = require('gulp-main-bower-files');
 var googlecdn = require('gulp-google-cdn');
 
  
@@ -53,6 +53,7 @@ gulp.task('js', function(done){
 done();
 });
 
+// компиляция sass
 gulp.task('sass',function (done) {
   return gulp.src('./scss/**/*.scss')
     .pipe(sass({
@@ -62,12 +63,6 @@ gulp.task('sass',function (done) {
 done();
 });
 
-gulp.task('sass', function (done) {
-  return gulp.src('./scss/**/main.scss')
-     .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('./dist/css'));
-    done();
-});
 gulp.task('scss', function () {
  return gulp.src('./scss/*.*')
   .pipe(sass().on('error', sass.logError))    
